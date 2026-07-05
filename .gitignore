@@ -1,0 +1,70 @@
+# ---------- Compiled class files ----------
+*.class
+
+# ---------- Build output ----------
+/build/
+/out/
+/bin/
+/target/
+
+# ---------- JAR / archives ----------
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- IDE: IntelliJ IDEA ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---------- IDE: Eclipse ----------
+.classpath
+.project
+.settings/
+bin/
+
+# ---------- IDE: VS Code ----------
+.vscode/
+*.code-workspace
+
+# ---------- IDE: NetBeans ----------
+nbproject/
+nb-configuration.xml
+
+# ---------- OS junk ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- Maven ----------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ---------- Gradle ----------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---------- Local secrets / env ----------
+*.env
+.env
+*.local
